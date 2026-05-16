@@ -1,0 +1,35 @@
+{
+  "name": "num-to-info-bot",
+  "version": "1.0.0",
+  "description": "Advanced Phone Number Lookup Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "latest",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5",
+    "@sabir7718/log": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "SABIR7718",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SABIR7718/num-to-info"
+  },
+  "keywords": [
+    "telegram-bot",
+    "number-lookup",
+    "phone-lookup",
+    "osint",
+    "india-number-info"
+  ]
+}
